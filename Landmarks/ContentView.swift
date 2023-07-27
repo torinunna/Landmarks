@@ -11,8 +11,8 @@ import SwiftUI
 //  conform to the View protocol and describe the view’s content and layout
 struct ContentView: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
-            .padding()
+        Text("Turtle Rock")
+            .font(.title)
     }
 }
 

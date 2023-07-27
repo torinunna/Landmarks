@@ -7,13 +7,17 @@
 
 import SwiftUI
 
+
+//  conform to the View protocol and describe the view’s content and layout
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, SwiftUI!")
             .padding()
     }
 }
 
+
+// declare a preview for that view
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
